@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wedding of Rian & Kesya</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="bg-music" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" loop></audio>
+
+    <div id="cover">
+        <div class="cover-bg-overlay"></div>
+        <div class="cover-content">
+            <p class="subtitle">THE WEDDING OF</p>
+            <h1>Rian & Kesya</h1>
+            
+            <div class="luxury-ornament">
+                <svg viewBox="0 0 100 100" class="butterfly-svg">
+                    <path d="M50,50 C35,20 15,25 20,45 C23,53 35,55 50,65 C65,55 77,53 80,45 C85,25 65,20 50,50 Z" fill="none" stroke="#d4af37" stroke-width="1.5"/>
+                    <path d="M50,50 C40,60 25,65 30,75 C34,81 45,75 50,65 C55,75 66,81 70,75 C75,65 60,60 50,50 Z" fill="none" stroke="#d4af37" stroke-width="1"/>
+                    <circle cx="50" cy="53" r="2" fill="#249ea0"/>
+                    <line x1="50" y1="50" x2="45" y2="35" stroke="#d4af37" stroke-width="1"/>
+                    <line x1="50" y1="50" x2="55" y2="35" stroke="#d4af37" stroke-width="1"/>
+                </svg>
+            </div>
+
+            <p class="to-text">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+            <div class="guest-box">
+                <span id="guest-name">Tamu Undangan</span>
+            </div>
+            <button id="btn-open">
+                <i class="fa-solid fa-envelope-open-text"></i> Buka Undangan
+            </button>
+        </div>
+    </div>
+
+    <div class="app-container">
+        
+        <aside class="desktop-sidebar">
+            <div class="sidebar-overlay"></div>
+            <div class="sidebar-content">
+                <p class="fade-in">THE WEDDING OF</p>
+                <h1 class="fade-in">Rian & Kesya</h1>
+                <div class="divider-gold fade-in"></div>
+                <p class="sidebar-date fade-in">22 . 12 . 2026</p>
+                
+                <div class="countdown-container fade-in">
+                    <div class="countdown-item"><span id="days">00</span><p>Hari</p></div>
+                    <div class="countdown-item"><span id="hours">00</span><p>Jam</p></div>
+                    <div class="countdown-item"><span id="minutes">00</span><p>Menit</p></div>
+                    <div class="countdown-item"><span id="seconds">00</span><p>Detik</p></div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="scroll-content lock-scroll" id="main-content">
+            
+            <section id="home" class="section hero-section">
+                <div class="section-card glass-panel reveal">
+                    <p class="tagline">SAVE THE DATE</p>
+                    <h2>Rian & Kesya</h2>
+                    <p class="date-text"><i class="fa-regular fa-calendar-check"></i> Sabtu, 22 Desember 2026</p>
+                    <div class="divider-gold" style="margin: 20px auto;"></div>
+                    <p class="quote">"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya..."</p>
+                </div>
+            </section>
+
+            <section id="couple" class="section">
+                <div class="section-title reveal">
+                    <h2>Mempelai</h2>
+                    <p class="serif-sub">Maha Suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.</p>
+                </div>
+                
+                <div class="couple-grid">
+                    <div class="couple-card glass-panel reveal">
+                        <div class="avatar-frame animate-frame">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=500" alt="Groom Photo">
+                        </div>
+                        <h3>Rian Ardiansyah, S.T.</h3>
+                        <p class="parents">Putra terkasih dari <br><strong>Bapak Ahmad & Ibu Fatimah</strong></p>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i> @rian_ardian</a>
+                    </div>
+
+                    <div class="ampersand-divider reveal">
+                        <span class="line gold"></span>
+                        <span class="amp-text">&</span>
+                        <span class="line gold"></span>
+                    </div>
+
+                    <div class="couple-card glass-panel reveal">
+                        <div class="avatar-frame animate-frame">
+                            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=500" alt="Bride Photo">
+                        </div>
+                        <h3>Kesya Putri, S.E.</h3>
+                        <p class="parents">Putri tercinta dari <br><strong>Bapak Bambang & Ibu Amalia</strong></p>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i> @kesyaputri</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="event" class="section">
+                <div class="section-title reveal">
+                    <h2>Rangkaian Acara</h2>
+                </div>
+                
+                <div class="event-stack">
+                    <div class="event-timeline-card glass-panel reveal">
+                        <div class="event-icon"><i class="fa-solid fa-ring"></i></div>
+                        <h3>Akad Nikah</h3>
+                        <div class="divider-gold"></div>
+                        <p class="time"><i class="fa-regular fa-clock"></i> 08.00 - 10.00 WIB</p>
+                        <p class="place"><strong>Masjid Raya Indah</strong><br>Jl. Cempaka Putih No. 12, Kota Jakarta</p>
+                        <a href="https://maps.google.com" target="_blank" class="btn-maps"><i class="fa-solid fa-map-location-dot"></i> Lihat Rute Google Maps</a>
+                    </div>
+
+                    <div class="event-timeline-card glass-panel reveal">
+                        <div class="event-icon"><i class="fa-solid fa-champagne-glasses"></i></div>
+                        <h3>Resepsi Pernikahan</h3>
+                        <div class="divider-gold"></div>
+                        <p class="time"><i class="fa-regular fa-clock"></i> 11.00 WIB - Selesai</p>
+                        <p class="place"><strong>Ballroom Hotel Butterfly</strong><br>Kawasan Episentrum Kav. 4-5, Jakarta</p>
+                        <a href="https://maps.google.com" target="_blank" class="btn-maps"><i class="fa-solid fa-map-location-dot"></i> Lihat Rute Google Maps</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="gallery" class="section">
+                <div class="section-title reveal">
+                    <h2>Galeri Bahagia</h2>
+                    <p class="serif-sub">Sentuh foto untuk memperbesar album</p>
+                </div>
+                <div class="luxury-gallery reveal">
+                    <div class="gallery-cell" data-index="0"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=600" alt="Prewedding 1"></div>
+                    <div class="gallery-cell" data-index="1"><img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600" alt="Prewedding 2"></div>
+                    <div class="gallery-cell" data-index="2"><img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=600" alt="Prewedding 3"></div>
+                    <div class="gallery-cell" data-index="3"><img src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=600" alt="Prewedding 4"></div>
+                </div>
+            </section>
+
+            <section id="wishes" class="section">
+                <div class="section-title reveal">
+                    <h2>Ucapan & Doa Restu</h2>
+                </div>
+                
+                <div class="wishes-box glass-panel reveal">
+                    <form id="form-ucapan">
+                        <div class="input-group">
+                            <input type="text" id="input-nama" required placeholder=" ">
+                            <label>Nama Lengkap</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="input-pesan" rows="4" required placeholder=" "></textarea>
+                            <label>Tulis ucapan tulus Anda di sini...</label>
+                        </div>
+                        <button type="submit" class="btn-submit">Kirim Doa Restu <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+
+                    <div class="wishes-separator"></div>
+
+                    <div id="feed-ucapan">
+                        <div class="feed-item">
+                            <div class="feed-avatar">B</div>
+                            <div class="feed-body">
+                                <h5>Budi & Susi</h5>
+                                <p>Selamat menempuh hidup baru Rian dan Kesya! Semoga menjadi keluarga yang sakinah, mawaddah, warahmah. Amin!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+    </div>
+
+    <nav class="bottom-navigation">
+        <a href="#home" class="nav-link active-nav"><i class="fa-solid fa-house-chimney"></i><span>Home</span></a>
+        <a href="#couple" class="nav-link"><i class="fa-solid fa-heart"></i><span>Mempelai</span></a>
+        <a href="#event" class="nav-link"><i class="fa-solid fa-calendar-day"></i><span>Acara</span></a>
+        <a href="#gallery" class="nav-link"><i class="fa-solid fa-images"></i><span>Galeri</span></a>
+        <a href="#wishes" class="nav-link"><i class="fa-solid fa-envelope-open-text"></i><span>Ucapan</span></a>
+    </nav>
+
+    <button id="music-control-btn" class="music-floating-btn">
+        <div class="music-wave">
+            <span></span><span></span><span></span>
+        </div>
+        <i class="fa-solid fa-compact-disc disc-spinning"></i>
+    </button>
+
+    <div id="lightbox" class="lightbox-modal">
+        <span class="lightbox-close">&times;</span>
+        <button class="lightbox-prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="lightbox-content-wrapper">
+            <img class="lightbox-content" id="lightbox-img" src="" alt="Enlarged view">
+        </div>
+        <button class="lightbox-next"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
